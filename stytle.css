@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: aqua;
+  font-size: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  color: ;
+  margin: 90px;
+}
+.item {
+  background-color: #fff;
+  margin: 10px;
+  border: 7px solid;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0.5);
+  border-radius: 10px;
+  padding: 8px;
+}
+.item:hover{
+    color: blue;
+    border-color: red;
+}
